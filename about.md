@@ -3,7 +3,7 @@ layout: about
 title: About
 subtitle: Senior iOS Engineer
 ---
-### About me
+## About me
 
 I live in South Devon, UK and since the start of 2012 I've worked for [Magicseaweed](https://magicseaweed.com), currently as their Lead Senior Mobile Engineer building the best Surf Forecast applications in the world.
 
