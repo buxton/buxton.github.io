@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  {% include head.html %}
+
+  <body>
+      <div class="wrapper">
+        {% include header.html %}
+
+        <section>
+            {{ content }}
+            <div class="photoblock">
+                <img src="{{ "/assets/images/michaelbuxton1.jpg" | relative_url }}" alt="Michael Buxton Portrait in Sagres">
+                <img src="{{ "/assets/images/michaelbuxton4.jpg" | relative_url }}" alt="Michael Buxton Surfing South Devon">
+                <img src="{{ "/assets/images/michaelbuxton3.jpg" | relative_url }}" alt="Michael Buxton on Dartmoor">
+                <img src="{{ "/assets/images/michaelbuxton2.jpg" | relative_url }}" alt="Michael Buxton Surfing South West">
+            </div>
+        </section>
+
+        {% include footer.html %}
+      </div>
+      <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"</script>
+  </body>
+</html>

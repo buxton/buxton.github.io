@@ -1,0 +1,30 @@
+title: Michael Buxton
+subtitle: Senior iOS Engineer
+description: > # this means to ignore newlines until "social links"
+  I'm a Software Engineer in South Devon, UK.
+  I primarily focus on iOS and Android Development and lead Mobile Engineering at Magicseaweed.
+
+# social links
+instagram_username: mjrbuxton
+linkedin_username: buxtonmichael
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+google_analytics: UA-131744195-1
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
